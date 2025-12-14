@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>岩大電気41会 HPコンシェルジュ</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+  background: linear-gradient(#0f2f46, #1b3c59);
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+.concierge {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.navi {
+  width: 260px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.navi p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.main {
+  flex: 1;
+  background: #ffffff;
+  color: #333;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #276678;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.category {
+  border: 1px solid #1b3c59;
+  border-radius: 10px;
+  padding: 15px;
+  background: linear-gradient(#f1f7ff, #dce7f5);
+  cursor: pointer;
+}
+
+.category h3 {
+  margin: 0 0 5px 0;
+  color: #1b3c59;
+}
+
+.category p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>🎓 岩大電気41会 HPコンシェルジュ</h1>
+    <p>思い出を、直接たどるための入口です</p>
+  </div>
+
+  <div class="concierge">
+
+    <!-- ナビちゃん -->
+    <div class="navi">
+      <p>
+        ようこそ。<br><br>
+        今日は、どんな思い出を<br>
+        探しに来られましたか？<br><br>
+        言葉は、<br>
+        途中までで大丈夫ですよ。
+      </p>
+    </div>
+
+    <!-- メインUI -->
+    <div class="main">
+
+      <div class="search-box">
+        <input type="text" placeholder="例：第10回同期会 / 不来方 / ○○研究室">
+        <button>検索</button>
+      </div>
+
+      <div class="categories">
+        <div class="category">
+          <h3>🎓 大学時代の記憶</h3>
+          <p>入学・学業・卒論・学生生活</p>
+        </div>
+        <div class="category">
+          <h3>🏛 研究室の足跡</h3>
+          <p>研究室史・卒研・教授</p>
+        </div>
+        <div class="category">
+          <h3>🏫 不来方の学舎</h3>
+          <p>校舎・写真・移転の記録</p>
+        </div>
+        <div class="category">
+          <h3>📅 イベント・会合</h3>
+          <p>同期会・FIT会・関東会</p>
+        </div>
+        <div class="category">
+          <h3>🖼 写真・動画</h3>
+          <p>同期会・学生時代の映像</p>
+        </div>
+        <div class="category">
+          <h3>🎉 同期会アーカイブ</h3>
+          <p>第○回ごとの記録</p>
+        </div>
+        <div class="category">
+          <h3>📚 資料・機関誌</h3>
+          <p>会報・PDF・書庫</p>
+        </div>
+        <div class="category">
+          <h3>📝 ブログ・編集室</h3>
+          <p>編集長ブログ・AI対話</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    HPコンシェルジュ（ブラウザ版デモ）
+  </div>
+
+</div>
+
+</body>
+</html>
